@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
+import home from '../assets/images/home.png'
 
 const Landingpage = () => {
   return (
@@ -36,6 +37,19 @@ const Landingpage = () => {
     </div>
   </div>
 </nav>
+
+      <div className='container p-10 mx-auto'>
+        <div className='flex'>
+          <div className=''>
+            <button>Quality Foods</button>
+            <button>Quality Delivery</button>
+            <button>Quality Customer Service</button>
+          <h1>Easy access to your favourite foods and restaurants</h1>
+          <p>Your favourite restaurants at your fingertips. Make an order or two to get the meal delivery service worthy of royalty.</p>
+          </div>
+        <img src={home} width={800} alt="" />
+        </div>
+      </div>
 
     </div>
     </>
