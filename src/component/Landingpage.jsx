@@ -40,11 +40,15 @@ const Landingpage = () => {
 
       <div className='container p-10 mx-auto'>
         <div className='flex'>
-          <div className=''>
-            <button>Quality Foods</button>
-            <button>Quality Delivery</button>
-            <button>Quality Customer Service</button>
-          <h1>Easy access to your favourite foods and restaurants</h1>
+          <div>
+            <div className='flex'>
+            <button className=' order m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Foods</button>
+            <button className='order  m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Delivery</button>
+            <button className='order  m-2 text-orange-400 p-2 w-60 bg-orange-100'>Quality Customer Service</button>
+            </div>
+            <p className='mt-5'>
+          <h1><span className='ease'>Easy</span> <span className='acces'>access</span> <span className='ease'>to your favourite</span> <span className='acces'>foods</span> <span className='ease'>and</span> <span className='acces'>restaurants</span></h1>
+          </p>
           <p>Your favourite restaurants at your fingertips. Make an order or two to get the meal delivery service worthy of royalty.</p>
           </div>
         <img src={home} width={800} alt="" />
