@@ -38,12 +38,14 @@
 }
 
 .ease{
-    color: blue;
+    color: rgb(17, 17, 66);
     font-size: 50px;
+    font-weight: 700;
 }
 
 .acces{
     font-size: 50px;
-    color: black;
+    color: rgb(255,137,0);
+    font-weight: 700;
 }
 

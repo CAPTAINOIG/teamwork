@@ -1,11 +1,13 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
 import home from '../assets/images/home.png'
+import applee from '../assets/images/applee.png'
+
 
 const Landingpage = () => {
   return (
     <>
-    <div>
+    <div className='overflow-hidden'>
         
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
@@ -41,17 +43,23 @@ const Landingpage = () => {
       <div className='container p-10 mx-auto'>
         <div className='flex'>
           <div>
-            <div className='flex'>
+            <div className='flex mt-20'>
             <button className=' order m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Foods</button>
             <button className='order  m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Delivery</button>
-            <button className='order  m-2 text-orange-400 p-2 w-60 bg-orange-100'>Quality Customer Service</button>
+            <button className='order  m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Customer Service</button>
             </div>
             <p className='mt-5'>
           <h1><span className='ease'>Easy</span> <span className='acces'>access</span> <span className='ease'>to your favourite</span> <span className='acces'>foods</span> <span className='ease'>and</span> <span className='acces'>restaurants</span></h1>
           </p>
           <p>Your favourite restaurants at your fingertips. Make an order or two to get the meal delivery service worthy of royalty.</p>
+          <div className='mt-20'>
+            <p className='text-black-300 text-xl font-bold'>Download app now to get started.</p>
+            <div className='border-2 bg-black w-60 text-white rounded-2xl'>
+             <a href=""><img src={applee} width={60} alt="" /><span className='ms-20'>Get it on App Store</span></a>
+            </div>
           </div>
-        <img src={home} width={800} alt="" />
+          </div>
+        <img className='-ms-40' src={home} width={800} alt="" />
         </div>
       </div>
 
