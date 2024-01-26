@@ -54,8 +54,10 @@ const Landingpage = () => {
           <p>Your favourite restaurants at your fingertips. Make an order or two to get the meal delivery service worthy of royalty.</p>
           <div className='mt-20'>
             <p className='text-black-300 text-xl font-bold'>Download app now to get started.</p>
-            <div className='border-2 bg-black w-60 text-white rounded-2xl'>
-             <a href=""><img src={applee} width={60} alt="" /><span className='ms-20'>Get it on App Store</span></a>
+            <div id='download' className='border-2 bg-black text-white'>
+              <div><a id='app' className='' href="">Get it on </a>
+              <a id='app2'  href="">App Store</a></div>
+             <a href=""><img src={applee} width={60} alt="" /><span></span></a>
             </div>
           </div>
           </div>

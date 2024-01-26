@@ -49,3 +49,22 @@
     font-weight: 700;
 }
 
+#download{
+    width: 200px;
+    border-radius: 30px;
+}
+
+#app{
+    position: relative;
+    top: 40px;
+    left: 60px;
+    font-size: 15px;
+}
+
+#app2{
+    position: relative;
+    top: 55px;
+    left: -10px;
+    font-size: 15px;
+}
+
