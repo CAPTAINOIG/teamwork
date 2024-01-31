@@ -2,6 +2,9 @@ import React from 'react'
 import logo from '../assets/images/logo.png'
 import home from '../assets/images/home.png'
 import applee from '../assets/images/applee.png'
+import { LuShoppingBag } from "react-icons/lu";
+import { IoBagCheckOutline } from "react-icons/io5";
+import { IoShieldCheckmarkSharp } from "react-icons/io5";
 
 
 const Landingpage = () => {
@@ -39,16 +42,16 @@ const Landingpage = () => {
     </div>
   </div>
 </nav>
-
-      <div className='container p-10 mx-auto'>
-        <div className='flex'>
+      <div>
+      <div className='container ms-20'>
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
           <div>
             <div className='flex mt-20'>
             <button className=' order m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Foods</button>
             <button className='order  m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Delivery</button>
             <button className='order  m-2 text-orange-400 p-2 w-40 bg-orange-100'>Quality Customer Service</button>
             </div>
-            <p className='mt-5'>
+            <p id='para' className='mt-5'>
           <h1><span className='ease'>Easy</span> <span className='acces'>access</span> <span className='ease'>to your favourite</span> <span className='acces'>foods</span> <span className='ease'>and</span> <span className='acces'>restaurants</span></h1>
           </p>
           <p>Your favourite restaurants at your fingertips. Make an order or two to get the meal delivery service worthy of royalty.</p>
@@ -65,6 +68,30 @@ const Landingpage = () => {
         </div>
       </div>
 
+    </div>
+    </div>
+
+    <div className='py-20 ms-20'>
+      <p className='text-center text-2xl font-bold text-blue-900'>Why you should use Rideeats?</p>
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 py-10">
+        <div>
+        <div className='ms-40 p-2 text-3xl text-white bg-orange-500 w-12 rounded-xl' ><LuShoppingBag /></div>
+        <p className='text-center p-2'>Unlimited Shopping</p>
+        <p>Shop from an unlimited supply of meals and groceries .</p>
+        </div>
+
+        <div>
+        <div className='ms-40 p-2 text-3xl text-white bg-orange-500 w-12 rounded-xl' ><IoBagCheckOutline /></div>
+        <p className='text-center p-2'>Easy Delivery</p>
+        <p>Get your orders to your location by our delivery partners in minutes.</p>
+        </div>
+
+        <div>
+          <div className='ms-40 p-2 text-3xl text-white bg-orange-500 w-12 rounded-xl'><IoShieldCheckmarkSharp /></div>
+          <p className='text-center p-2'>Secure Package</p>
+          <p>Receive your meal & package at your doorstep.</p>
+        </div>
+      </div>
     </div>
     </>
   )
